@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+header{
+	display: flex;
+	align-items: center;
+	border: 1px solid lightgrey;
+	height: 70px;
+}
+
+.wood{
+	width: 190px;
+	height: 36px;
+	position: absolute;
+	left: 600px;
+	top: 30px;
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+
+}
+
+.container001{
+	width: 100%;
+	height: 587px;
+	margin-top: 36px;
+	position: relative;
+}
+
+.big{
+	width: 100%;
+	height: 587px;
+
+}
+
+.big-1{
+	position: absolute;
+	left: 300px;
+	bottom: 280px;
+	text-align: center;
+	color: white;
+	font-size: 27px;
+	font-weight: 700;
+}
+
+.big-2{
+	position: absolute;
+	left: 600px;
+	bottom: 250px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border: white 1px solid;
+	background-color: transparent;
+	padding: 0 30px 0 30px;
+}
+
+.big-3{
+	width: 324px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+
+}
+.container01{
+	width: 100%;
+	height: 155px;
+	background-color: #F7F7F7;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.own1{
+	margin: 22px;
+}
+
+.own{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px
+}
+
+.all{
+	max-width: 1340px;
+	min-width: 1340px;
+
+}
+.container{
+	width: 100%;
+	padding: 0;
+	
+}
+
+.box{
+    display: flex;
+	height: 320px;
+}
+
+.box1{
+	width: 25%;
+}
+
+.container2{
+	width: 100%;
+	height: 587px;
+	display: flex;
+	margin-top: 35px;
+}
+
+.zag1{
+	width: 100%;
+	height: 540px;	
+}
+
+.box2{
+	width: 36%;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.box3{
+	width: 64%;
+	height: 540px;	
+}
+
+.paragrapf1, .paragrapf2, .paragrapf3, .paragrapf5, .cargo-1, .cargo-2, .cargo-7, .paragrapf7, .paragrapf8, .zag4, .lux1, .lux, .container10, .big-2, .big-3, .foot-13, .foot-15, .foot-1, .foot-2, nav ul li{
+    font-family: Cardo;	
+}
+
+.paragrapf4, .zag, .zag2, .hide-4, .big-1 {
+	font-family: Roboto;
+}
+
+.zag{
+	height: 56px;
+	margin-top: 70px;
+}
+
+.paragrapf1{
+	height: 38px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.paragrapf2{
+	height: 28px;
+}
+
+.paragrapf3{
+    font-size: 18px;
+    color: #525252;
+}
+
+.paragrapf4{
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.container-3{
+	width: 100%;
+	height: 587px;
+	display: flex;
+}
+
+.diva-1{
+    width: 100%;
+    height: 580px;
+}
+.diva-2{
+	width: 100%;
+	height: 542px;
+}
+
+.diva-3{
+	width: 36%;
+	text-align: left;
+	margin: 35px;
+}
+
+
+.container4{
+	width: 100%;
+	height: 587px;
+	display: flex;
+}
+
+.hide-1{
+	width: 36%;
+	text-align: right;
+	margin-right: 35px;
+	margin-top: 35px;
+}
+.paragrapf5{
+	color: red;
+	font-style: italic;
+}
+
+.hide-4{
+	border: none;
+	border-bottom: 2px solid black;
+	margin-top: 30px;
+}
+
+.hide-2{
+	width: 64%;
+	height: 550px;
+}
+
+.hide-3{
+	width: 100%;
+	height: 540px;
+}
+
+.container5{
+	width: 100%;
+	height: 587px;
+	display: flex;
+}
+
+.hide-5{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+.container6{
+	width: 100%;
+	height: 587px;
+	display: flex;
+	margin-top: 35px;
+}
+
+.car-1{
+	width: 36%;
+	height: 587px;
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 35px;
+}
+.car-2{
+	width: 64%;
+	height: 587px;
+
+}
+
+.car-3{
+	width: 100%;
+	height: 570px;
+}
+
+.container7{
+	width: 100%;
+	height: 680px;
+}
+
+.cargo{
+	text-align: center;
+}
+
+.cargo-1{
+	color: #3A3A3A;
+	font-size: 30px;
+    line-height: 39px;
+}
+
+.cargo-3{
+	width: 100%;
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.cargo-5{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.cargo-4, .cargo-5, .cargo-6{
+	position: relative;
+}
+
+.icon{
+	position: absolute;
+	top: 49px;
+	right: 78px;
+}
+
+.cargo-7{
+	position: absolute;
+	top: 45px;
+	right: 25px;
+	color: whitesmoke;
+}
+
+.icon-2{
+	position: absolute;
+	top: 49px;
+	right: 130px;
+}
+.icon-3{
+	position: absolute;
+	top: 49px;
+	right: 120px;
+}
+
+.container8{
+	width: 100%;
+	height: 150px;
+}
+
+.paragrapf7{
+	margin-top: 50px;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+
+.paragrapf8{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.container9{
+	margin-top: 50px;
+	width: 100%;
+	height: 370px;
+	display: flex;
+}
+
+.lux{
+	width: 25%;
+	height: 365px;
+	justify-content: center;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.zag4{
+	font-weight: 400;
+}
+
+.lux3{
+	background-color: #F8F8F8;
+}
+
+.container10{
+	width: 100%;
+	height: 315px;
+	background-color: #F7F7F7;
+}
+.lux4{
+	text-align: center;
+	font-size: 20px;
+	color: #454545;
+	padding-top: 80px;
+	
+}
+
+.lux5{
+	width: 98%;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+footer{
+	background-color: #E9E9E9;
+	width: 100%;
+}
+.foot{
+	width: 100%;
+	height: ;
+	display: flex;
+
+}
+
+.foot-1{
+	width: 70%;
+	height: 287px;
+	display: flex;
+	text-align: center;
+	margin-left: 100px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.foot-1 ul li{
+	list-style: none;
+	margin-left: 40px;
+}
+
+.foot-1 h3{
+	margin-left: 60px;
+	font-weight: 400;
+}
+
+.foot-2{
+	width: 30%;
+	height: 287px;
+	flex-direction: column;
+	margin-top: 30px;
+	line-height: 30px;
+	margin-right: 150px;
+}
+
+.foot-7{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.foot-8{
+	margin-left: 30px;
+}
+.foot-9{
+	margin-right: 10px;
+}
+
+.foot-10{
+	background-color: white;
+	padding: 0px 30px;
+}
+
+.foot-12{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foot-13{
+	font-size: 12px;
+}
+
+.foot-14{
+	display: flex;
+	margin: 0 101px 30px 79px;
+}
+
+.foot-15{
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
